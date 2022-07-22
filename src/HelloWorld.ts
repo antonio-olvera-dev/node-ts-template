@@ -1,7 +1,10 @@
 export class HelloWorld {
 
-    greetings() {
-        console.log("HelloWorld");
+    public greetings(): string {
+
+        console.log('HelloWorld');
+        return 'HelloWorld';
+
     }
 
 }
