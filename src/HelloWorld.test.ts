@@ -13,6 +13,6 @@ beforeEach(() => {
 
 test('test greetings', () => {
 
-    expect('HelloWorld').toBe(helloWorld.greetings());
+    expect(helloWorld.greetings()).toBe('HelloWorld');
 
 });
