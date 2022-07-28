@@ -15,7 +15,7 @@
   "rules": {
     "no-multi-spaces": "error",
     "quotes": ["warn", "single"],
-    "padded-blocks":"warn",
+    "padded-blocks":["error", { "classes": "always" }],
     "padding-line-between-statements":"error",
     "no-unused-vars": "off",
     "@typescript-eslint/no-unused-vars": ["error"],
