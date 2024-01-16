@@ -2,10 +2,10 @@
 
 Install packages
 ```shell
-yarn install
+pnpm install
 ```
 
 Run server
 ```shell
-yarn server
+pnpm dev
 ```
