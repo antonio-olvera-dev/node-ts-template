@@ -1,18 +1,10 @@
 import { HelloWorld } from './HelloWorld';
+import { expect, test } from 'vitest';
 
 
 let helloWorld: HelloWorld;
 
-
-beforeEach(() => {
-
-    helloWorld = new HelloWorld();
-
-});
-
-
 test('test greetings', () => {
-
+    helloWorld = new HelloWorld();
     expect(helloWorld.greetings()).toBe('HelloWorld');
-
 });
